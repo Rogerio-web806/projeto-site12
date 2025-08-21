@@ -1,0 +1,147 @@
+body {
+
+    background-color: #FCFAF8;
+
+}
+
+
+@keyframes go-back {
+	0% {
+		transform: translateX(100px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+
+}
+
+
+.diversão {
+    border: 2px solid rgb(194, 194, 194);
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    margin: 10px;
+    /* Largura total */
+    max-width: 950px;
+    /* Largura máxima */
+    min-height: 100px;
+    /* Altura mínima */
+    margin: 10px auto;
+    /* Centralizada */
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+
+
+}
+
+/* fazendo o h1 */
+h1 {
+
+    display: flex;
+    color: rgb(51, 51, 51);
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-style: oblique;
+    /* muda o estilo da fonte*/
+       animation: go-back 1s;
+}
+
+.saudade {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+
+}
+
+
+
+li {
+    padding: 20px;
+    display: inline-block;
+}
+
+a {
+    color: black;
+
+}
+
+button {
+
+    height: 25px;
+    background-color: white;
+}
+
+button:hover {
+
+
+    background-color: rgb(204, 204, 204);
+
+}
+
+.jcoj {
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+       animation: go-back 2s;
+   
+}
+
+img {
+
+    border-radius: 20px;
+    width: 100%;
+    margin: 10px;
+    /* Largura total */
+    max-width: 700px;
+    /* Largura máxima */
+    min-height: 50px;
+    /* Altura mínima */
+    margin: 10px auto;
+    /* Centralizada */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+       animation: go-back 2.5s;
+
+
+}
+
+section {
+
+    background-color: rgb(209, 209, 209);
+    border-radius: 30px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(194, 194, 194);
+    width: 100%;
+    margin: 10px;
+       animation: go-back 3s;
+}
+
+p {
+
+    font-family: monospace;
+    font-size: large;
+    font-style: initial;
+
+
+}
+
+/*  animation: go-back 1s; animação 
+@keyframes go-back {
+	0% {
+		transform: translateX(100px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+tem que ter*/
